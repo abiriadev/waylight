@@ -2,6 +2,8 @@ pub enum Value {
 	Byte(u8),
 	Integer(Integer),
 	Float(Float),
+	Vector,
+	Name(String),
 }
 
 pub enum Integer {
